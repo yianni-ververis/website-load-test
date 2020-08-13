@@ -1,0 +1,14 @@
+{
+  "name": "mashup-tester",
+  "version": "1.0.0",
+  "description": "Testing mashups against Qlik Sense",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "author": "yianni.ververis@qlik.com",
+  "license": "ISC",
+  "dependencies": {
+    "puppeteer": "^3.0.2"
+  }
+}
