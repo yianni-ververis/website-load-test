@@ -1,6 +1,6 @@
 ### Website Load Tester
 
-This is a command line tool that opens multiple tabs on Chromium and handles interactions, to load test the server and the Qlik Engine.
+This is a command line tool that opens multiple tabs on Chromium and handles interactions, to load test the website server/cluster and the Qlik Associative Engine.
 
 Currently we only have the fullpage.js scenario where the script open tabs, and immitates scrolling for navigation and trigger the engine api calls.
 
