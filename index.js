@@ -21,20 +21,11 @@ if (handleArguments[0] === 'fullpage') {
     timeout: 300000, // Wait in milliseconds until next scroll
     closeTabAfter: 50 * 60 * 1000
   });
-} else if (handleArguments[0] === 'simple') {
-  simple({ 
-    delay: 5000, // Wait in milliseconds for the next session
-    slides: 10, // How many slides to scroll in Fullpage.js
-    sessions: 3, // Total Sessions / Tabs
-    url: 'https://qdt-qcs-webapp-poc.qlik.com/hub/',
-    timeout: 300000, // Wait in milliseconds until next scroll
-    closeTabAfter: 50 * 60 * 1000
-  });
 } else if (handleArguments[0] === 'loadAndClick') {
   loadAndClick({ 
     timeout: 300000, // Wait in milliseconds until next click
     maxClicks: 1, 
-    sessions: 10, // Total Sessions / Tabs
+    sessions: 1000, // Total Sessions / Tabs
     sessionTimeout: 1 * 1000, // Wait in seconds for the next session
     selector: '.app a', // html query selector
     url: 'https://localhost:8081/',
